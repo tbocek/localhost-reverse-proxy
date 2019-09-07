@@ -12,8 +12,8 @@ import (
 func main() {
 	port := flag.String("l", "8080", "listen on port, e.g., 8080")
 	directory := flag.String("d", ".", "directory to server HTML files from, e.g. /var/www")
-	redirect := flag.String("r", "8545", "redirect port to redirect to, e.g., 8545. This will"+
-		"redirect http://localhost:8080/8545 to http://localhost:8545")
+	redirect := flag.String("r", "8545", "port to redirect to, e.g., 8545. This will"+
+		" redirect http://localhost:8080/8545 to http://localhost:8545")
 
 	flag.Parse()
 	fmt.Printf("Static file HTTP server and reverse proxy for localhost. This tool exists due to CORS.\n")

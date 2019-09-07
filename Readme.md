@@ -32,6 +32,6 @@ Static file HTTP server and reverse proxy for localhost. This tool exists due to
   -l string
     	listen on port, e.g., 8080 (default "8080")
   -r string
-    	redirect port to redirect to, e.g., 8545. This willredirect http://localhost:8080/8545 to http://localhost:8545 (default "8545")
+    	port to redirect to, e.g., 8545. This will redirect http://localhost:8080/8545 to http://localhost:8545 (default "8545")
 Serving: /var/www on http://localhost:8080, redirecting http://localhost:8080/8545 to http://localhost:8545
 ```
